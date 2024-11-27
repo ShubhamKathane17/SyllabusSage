@@ -1,0 +1,32 @@
+2024-11-26 10:19:24,858 INFO    MainThread:19056 [wandb_setup.py:_flush():79] Current SDK version is 0.18.7
+2024-11-26 10:19:24,858 INFO    MainThread:19056 [wandb_setup.py:_flush():79] Configure stats pid to 19056
+2024-11-26 10:19:24,858 INFO    MainThread:19056 [wandb_setup.py:_flush():79] Loading settings from C:\Users\shubh\.config\wandb\settings
+2024-11-26 10:19:24,858 INFO    MainThread:19056 [wandb_setup.py:_flush():79] Loading settings from D:\MajorProject\SyllabusSage\wandb\settings
+2024-11-26 10:19:24,858 INFO    MainThread:19056 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-11-26 10:19:24,858 INFO    MainThread:19056 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-11-26 10:19:24,859 INFO    MainThread:19056 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'new.py', 'program_abspath': 'D:\\MajorProject\\SyllabusSage\\new.py', 'program': 'D:\\MajorProject\\SyllabusSage\\new.py'}
+2024-11-26 10:19:24,859 INFO    MainThread:19056 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-11-26 10:19:24,859 INFO    MainThread:19056 [wandb_setup.py:_flush():79] Applying login settings: {'mode': 'offline'}
+2024-11-26 10:19:24,859 INFO    MainThread:19056 [wandb_init.py:_log_setup():533] Logging user logs to D:\MajorProject\SyllabusSage\wandb\offline-run-20241126_101924-j87wq2hu\logs\debug.log
+2024-11-26 10:19:24,859 INFO    MainThread:19056 [wandb_init.py:_log_setup():534] Logging internal logs to D:\MajorProject\SyllabusSage\wandb\offline-run-20241126_101924-j87wq2hu\logs\debug-internal.log
+2024-11-26 10:19:24,859 INFO    MainThread:19056 [wandb_init.py:init():619] calling init triggers
+2024-11-26 10:19:24,859 INFO    MainThread:19056 [wandb_init.py:init():626] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.02, 'architecture': 'CNN', 'dataset': 'CIFAR-100', 'epochs': 10}
+2024-11-26 10:19:24,859 INFO    MainThread:19056 [wandb_init.py:init():669] starting backend
+2024-11-26 10:19:24,859 INFO    MainThread:19056 [wandb_init.py:init():673] sending inform_init request
+2024-11-26 10:19:24,862 INFO    MainThread:19056 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-11-26 10:19:24,863 INFO    MainThread:19056 [wandb_init.py:init():686] backend started and connected
+2024-11-26 10:19:24,869 INFO    MainThread:19056 [wandb_init.py:init():781] updated telemetry
+2024-11-26 10:19:24,956 INFO    MainThread:19056 [wandb_init.py:init():814] communicating run to backend with 90.0 second timeout
+2024-11-26 10:19:26,699 INFO    MainThread:19056 [wandb_init.py:init():867] starting run threads in backend
+2024-11-26 10:19:27,161 INFO    MainThread:19056 [wandb_run.py:_console_start():2456] atexit reg
+2024-11-26 10:19:27,161 INFO    MainThread:19056 [wandb_run.py:_redirect():2305] redirect: wrap_raw
+2024-11-26 10:19:27,161 INFO    MainThread:19056 [wandb_run.py:_redirect():2370] Wrapping output streams.
+2024-11-26 10:19:27,161 INFO    MainThread:19056 [wandb_run.py:_redirect():2395] Redirects installed.
+2024-11-26 10:19:27,166 INFO    MainThread:19056 [wandb_init.py:init():911] run started, returning control to user process
+2024-11-26 10:19:27,168 INFO    MainThread:19056 [wandb_run.py:_finish():2155] finishing run my-awesome-project/j87wq2hu
+2024-11-26 10:19:27,168 INFO    MainThread:19056 [wandb_run.py:_atexit_cleanup():2420] got exitcode: 0
+2024-11-26 10:19:27,169 INFO    MainThread:19056 [wandb_run.py:_restore():2402] restore
+2024-11-26 10:19:27,169 INFO    MainThread:19056 [wandb_run.py:_restore():2408] restore done
+2024-11-26 10:19:28,180 INFO    MainThread:19056 [wandb_run.py:_footer_history_summary_info():3960] rendering history
+2024-11-26 10:19:28,180 INFO    MainThread:19056 [wandb_run.py:_footer_history_summary_info():3992] rendering summary

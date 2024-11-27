@@ -12,7 +12,7 @@ from nltk.tokenize import word_tokenize
 from collections import Counter
 import openai
 
-openai.api_key = "apikey"
+openai.api_key = "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"
 
 def extract_questions_from_file(filepath):
     with open(filepath, 'rb') as f:
@@ -37,7 +37,7 @@ def extract_important_topics(questions):
     text = '\n'.join(questions)
     print(text)
     response = openai.Completion.create(
-        engine="davinci",
+        engine="gpt-4o-mini",
         prompt=f"create a table (extract atleast 15 important topic names and give all utube link to study those important topic) and give extra similar 3 questions from each topic:\n\n{text}\n\n",
         temperature=0.5,
         max_tokens=1024,
@@ -54,9 +54,6 @@ def extract_important_topics(questions):
 
 
 def cluster_questions(questions, num_clusters, syllabus_file):
-    
-    
-
     module_url = "https://tfhub.dev/google/universal-sentence-encoder-large/5"
     embed = hub.load(module_url)
     embeddings = embed(questions).numpy()
@@ -71,13 +68,17 @@ def cluster_questions(questions, num_clusters, syllabus_file):
     dendrogram(linkage_matrix, truncate_mode='level', p=15, leaf_font_size=10)
     plt.xlabel("Number of points in node (or index of point if no parenthesis).")
     plt.ylabel("Distance between centroids")
+    plt.savefig("images/gf1.png")
     plt.show()
+
     plt.figure(figsize=(10, 10))
     plt.scatter(principalComponents[:, 0], principalComponents[:, 1], c=y_kmeans, s=50, cmap='viridis')
     centers = kmeans.cluster_centers_
     plt.scatter(centers[:, 0], centers[:, 1], c='black', s=200, alpha=0.5)
     plt.axis('off')
+    plt.savefig("images/gf2.png")
     plt.show()
+
     return y_kmeans
 
 questions = extract_questions_from_directory('texts')
