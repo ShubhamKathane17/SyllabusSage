@@ -1,1 +1,19 @@
-Some cluster questions
+Number Conversions  https://www.youtube.com/watch?v=crSGS1uBSNQ
+
+Boolean Functions  https://www.youtube.com/watch?v=r4fPcnu8sU0
+
+Design of Combinational Circuits  https://www.youtube.com/watch?v=Hm4PxYzBTcY
+
+Multiplexers and Demultiplexers  https://www.youtube.com/watch?v=gK0tZtFTXYA
+
+Counters  https://www.youtube.com/watch?v=MgZDeSO_GOw
+
+Fan in and Fan out  https://www.youtube.com/watch?v=vTmTgrGrul4
+
+TTL and CMOS Logic Families  https://www.youtube.com/watch?v=3A3oKvnB_gY
+
+Karnaugh Maps  https://www.youtube.com/watch?v=Vy4PEy1OcOQ
+
+Adders and Comparators  https://www.youtube.com/watch?v=PGA52YSVKdI
+
+Latches and Flip-flops  https://www.youtube.com/watch?v=m33_UQ7TYAY
